@@ -5,7 +5,7 @@ De Leo, F., Pineau, A., Lisboa, D., & Besio, G. (2025)
 
 The working directory must contain the following elements:
 
-1. Python Scripts
+**1. Python Scripts**
   
 defPixels.py – Used for the initial selection of the Ground Control Points (GCPs).  
   
@@ -17,20 +17,20 @@ auxiliary.py – Library used to:
 main.py – Main script used to launch the entire processing workflow. The input argument must match the name of the monitoring station (e.g., sturla in the provided example).  
 
 coastsnap_env.yml is the environment required to run the scripts.  
-
-2. model_sam Folder
+  
+**2. model_sam Folder**
 
 A folder named model_sam containing the checkpoints of the Segment Anything Model (SAM).
 The model weights can be downloaded from:
-https://github.com/facebookresearch/segment-anything
-
-3. Station Folder
-
-A folder named after the monitoring station (e.g., sturla).
-This folder must contain:
-  - GCP.dat – ASCII file containing the coordinates of the Ground Control Points (GCPs), both in pixel coordinates and in the UTM reference system (see attached example);
-  - setting.dat – ASCII file containing general configuration settings. All entries are commented and self-explanatory (see attached example).
-
+https://github.com/facebookresearch/segment-anything  
+  
+**3. Station Folder**  
+  
+A folder named after the monitoring station (e.g., sturla).  
+This folder must contain:  
+  - GCP.dat – ASCII file containing the coordinates of the Ground Control Points (GCPs), both in pixel coordinates and in the UTM reference system (see attached example);  
+  - setting.dat – ASCII file containing general configuration settings. All entries are commented and self-explanatory (see attached example).  
+  
 Subfolders within the Station Directory:
   - shorelines --> contains the extracted shorelines saved in shapefile format (UTM coordinates);
   - images --> this folder must contain four subfolders:
