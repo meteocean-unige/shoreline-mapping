@@ -32,13 +32,13 @@ This folder must contain:
   - setting.dat – ASCII file containing general configuration settings. All entries are commented and self-explanatory (see attached example).  
   
 Subfolders within the Station Directory:
-  - shorelines --> contains the extracted shorelines saved in shapefile format (UTM coordinates);
-  - images --> this folder must contain four subfolders:
-      - Target – Contains the reference image used to align all raw images (see attached example);
-      - Raw – Contains all raw images to be processed (see attached example);
-      - Unusable – Images for which alignment fails or metadata cannot be accessed are automatically moved to this folder;
-      - Processed – Contains raw images after alignment and segmentation.
-
-The scripts were developed building upon the CoastSnap framework. For reference see:
+  - images - this folder must contain four subfolders:
+        - Target – Contains the reference image used to align all raw images (see attached example);
+        - Raw – Contains all raw images to be processed (see attached example);
+        - Unusable – Images for which alignment fails or metadata cannot be accessed are automatically moved to this folder;
+        - Processed – Contains raw images after alignment and segmentation.  
+  - shorelines - contains the extracted shorelines saved in shapefile format (UTM coordinates);
+  
+The scripts were developed building upon the CoastSnap framework. For reference see:  
 Harley, M. D., & Kinsela, M. A. (2022). CoastSnap: A global citizen science program to monitor changing coastlines. Continental Shelf Research, 245, 104796.
 
