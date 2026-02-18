@@ -1,0 +1,20 @@
+name: coastSnap
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - imagesize
+  - importlib-metadata
+  - matplotlib
+  - zlib
+  - pandas
+  - geopandas
+  - scipy
+  - shapely
+  - ipykernel
+  - segment-anything
+  - mkl
+  - pytorch pytorch torchvision
+- pip:
+    - opencv-python
+    
