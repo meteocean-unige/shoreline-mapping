@@ -8,9 +8,9 @@ The working directory must contain the following elements:
 1. Python Scripts  
 defPixels.py – Used for the initial selection of the Ground Control Points (GCPs).  
 auxiliary.py – Library used to:  
-  - Align raw images to the target image;  
-  - Segment the aligned images;  
-  - Project the extracted shorelines onto a UTM coordinate system.  
+    - Align raw images to the target image;  
+    - Segment the aligned images;  
+    - Project the extracted shorelines onto a UTM coordinate system.  
 main.py – Main script used to launch the entire processing workflow. The input argument must match the name of the monitoring station (e.g., sturla in the provided example).  
 
 coastsnap_env.yml is the environment required to run the scripts.  
