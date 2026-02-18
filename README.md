@@ -5,8 +5,10 @@ De Leo, F., Pineau, A., Lisboa, D., & Besio, G. (2025)
 
 The working directory must contain the following elements:
 
-1. Python Scripts  
+1. Python Scripts
+  
 defPixels.py – Used for the initial selection of the Ground Control Points (GCPs).  
+  
 auxiliary.py – Library used to:  
     - Align raw images to the target image;  
     - Segment the aligned images;  
