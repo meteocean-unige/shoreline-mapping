@@ -32,10 +32,10 @@ This folder must contain:
   - setting.dat – ASCII file containing general configuration settings. All entries are commented and self-explanatory (see attached example).  
   
 Subfolders within the Station Directory:
-  - images - this folder must contain four subfolders:
-        - Target – Contains the reference image used to align all raw images (see attached example);
-        - Raw – Contains all raw images to be processed (see attached example);
-        - Unusable – Images for which alignment fails or metadata cannot be accessed are automatically moved to this folder;
+  - images - this folder must contain four subfolders:  
+        - Target – Contains the reference image used to align all raw images (see attached example);  
+        - Raw – Contains all raw images to be processed (see attached example);  
+        - Unusable – Images for which alignment fails or metadata cannot be accessed are automatically moved to this folder;  
         - Processed – Contains raw images after alignment and segmentation.  
   - shorelines - contains the extracted shorelines saved in shapefile format (UTM coordinates);
   
