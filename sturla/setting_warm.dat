@@ -1,0 +1,11 @@
+0	 	 % initial date YYYYmmdd - 0 if ALL pics are meant to be processed
+20250510 	 % final date YYYYmmdd
+10               % cut-off for retaining aligned pic (% of features detected)
+366	   	 % ic -> column position of the pixel used for SAM
+1290		 % ir -> row position of the pixel used for SAM
+vit_b		 % SAM predictor -> vit_b (base) , vit_l (medium), vit_h (huge)
+498577           % lon1 - box to retain shoreline extracted
+4915313          % lat1
+498922           % lon2
+4915423          % lat2
+5                % spatial resolution for smoothing shoreline [m]
