@@ -14,9 +14,7 @@ defPixels.py – Used for the initial selection of the Ground Control Points (GC
 auxiliary.py – Library used to:  
     - Align raw images to the target image;
     - Segment the aligned images (SAM);  
-    
     - Count people on the beach (YOLO);
-    
     - Project the extracted shorelines onto a UTM coordinate system.  
   
 main.py – Main script used to launch the entire processing workflow. The input argument must match the name of the monitoring station (e.g., sturla in the provided example).  
