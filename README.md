@@ -27,7 +27,7 @@ https://github.com/facebookresearch/segment-anything
 
 **3. model_yolo Folder**
 
-A folder named model_yolo containing the weights of the YOLO model used to detect and count people in each image.
+A folder named model_yolo containing the weights of the YOLO model used to detect and count people in each image. For further information see https://github.com/ultralytics/ultralytics
 
 **4. Station Folder**
 
